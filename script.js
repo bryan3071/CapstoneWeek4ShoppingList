@@ -36,9 +36,11 @@ add4.onclick = function() {
 
 var add5 = document.getElementById("add5");
 add5.onclick = function() {
-for (var i=0; i<cost.length; i++);{
+for (var i=0; i<cost.length; i++){
 	console.log (foodChoices[i] + cost[i]);
-	totalCost += cost[i];
+	
+	totalCost += cost [i]; 
+	
 } console.log(totalCost);
 //console.log(cost[i]);
 }
